@@ -5,6 +5,7 @@ import RDatasets: dataset
 LinearRegressor = @load LinearRegressor pkg=MLJLinearModels
 boston = dataset("MASS", "Boston")
 first(boston, 10)
+last()
 
 describe(boston, :mean, :std, :eltype)
 data = coerce(boston, autotype(boston, :discrete_to_continuous)) 
