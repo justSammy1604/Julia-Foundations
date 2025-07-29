@@ -7,7 +7,7 @@ boston = dataset("MASS", "Boston")
 first(boston, 10)
 
 describe(boston, :mean, :std, :eltype)
-data = coerce(boston, autotype(boston, :discrete_to_continuous))
+data = coerce(boston, autotype(boston, :discrete_to_continuous)) 
 
 X = select(data, Not(:MedV))
 y = data.MedV
