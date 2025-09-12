@@ -3,7 +3,7 @@ using PrettyPrinting, StableRNGs, DecisionTree, MLJDecisionTreeClassifier, Stati
 
 iris_X, iris_y = @load_iris
 
-DecisionTreeClassifier = @load DecisionTreeClassifier pkg=DecisionTree
+DecisionTreeClassifier = @load DecisionTreeClassifier pkg=DecisionTree 
 tree_model = DecisionTreeClassifier()
 
 # machine object in MLJ.jl acts as the bridge that connects a model (the algorithm's blueprint) with specific data (the actual values).
