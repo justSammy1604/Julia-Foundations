@@ -21,4 +21,4 @@ y_pred_mode = MLJ.predict_mode(tree, rows=test)
 
 confusion_matrix(y_pred_mode, iris_y[test])
 
-mce = MLJ.cross_entropy(y_pred, iris_y[test])
+mce = MLJ.cross_entropy(y_pred, iris_y[test]) 
