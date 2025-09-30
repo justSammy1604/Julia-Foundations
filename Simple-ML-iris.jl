@@ -7,7 +7,7 @@ DecisionTreeClassifier = @load DecisionTreeClassifier pkg=DecisionTree
 tree_model = DecisionTreeClassifier()
 
 # machine object in MLJ.jl acts as the bridge that connects a model (the algorithm's blueprint) with specific data (the actual values).
-tree = machine(tree_model, iris_X, iris_y)
+tree = machine(tree_model, iris_X, iris_y) 
 
 # For reproducible splitting
 rng = StableRNG(123)
