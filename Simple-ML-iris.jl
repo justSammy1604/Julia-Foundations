@@ -1,4 +1,4 @@
-# Laying the basics of ML. Just a demo to show how ML works in Julia. Further will dive deep to enhance model performance.
+# Laying the basics of ML. Just a demo to show how ML works in Julia. Further will dive deep to enhance model performance. 
 using PrettyPrinting, StableRNGs, DecisionTree, MLJDecisionTreeClassifier, Statistics, StatsBase, RDatasets, Plots, MLJ
 
 iris_X, iris_y = @load_iris
