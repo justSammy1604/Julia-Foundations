@@ -6,3 +6,13 @@ println(typeof(5.6))
 println(0x47a)
 bitstring(0x45a)
 
+typeof(pi)
+x = 1//4 + 3//5
+println(numerator(x))
+println(denominator(x))
+
+sin(3.4)
+sinh(12)
+asin(0.56)
+println(div(555, 17))
+mod(77,12)
