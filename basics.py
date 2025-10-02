@@ -11,6 +11,12 @@ x = 1//4 + 3//5
 println(numerator(x))
 println(denominator(x))
 
+
+round(pi, digits=100)
+#3 > 2
+iseven(4)
+isodd(23)
+
 sin(3.4)
 sinh(12)
 asin(0.56)
