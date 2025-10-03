@@ -1,5 +1,6 @@
 # using Pkg
 # Pkg.add("Decimals")
+using Statistics
 using Decimals
 println(typeof(5.6))
 # 0x123
