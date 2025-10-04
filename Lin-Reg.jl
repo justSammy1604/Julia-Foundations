@@ -3,7 +3,7 @@ import DataFrames:describe, select, Not, rename!
 import RDatasets: dataset
 
 LinearRegressor = @load LinearRegressor pkg=MLJLinearModels
-boston = dataset("MASS", "Boston")
+boston = dataset("MASS", "Boston") 
 first(boston, 10)
 last(boston, 20) 
 
