@@ -1,4 +1,4 @@
-using MLJ, MLJLinearModels, RDatasets, DataFrames, Plots, StatsBase, PrettyPrinting
+using MLJ, MLJLinearModels, RDatasets, DataFrames, Plots, StatsBase, PrettyPrinting 
 import DataFrames:describe, select, Not, rename!
 import RDatasets: dataset
 
