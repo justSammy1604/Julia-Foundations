@@ -10,7 +10,7 @@ bitstring(0x45a)
 typeof(pi)
 x = 1//4 + 3//5
 println(numerator(x))
-println(denominator(x))
+println(denominator(x)) 
 
 
 round(pi, digits=100)
