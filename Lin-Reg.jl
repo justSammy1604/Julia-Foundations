@@ -11,7 +11,7 @@ describe(boston, :mean, :std, :eltype)
 data = coerce(boston, autotype(boston, :discrete_to_continuous)) 
 
 X = select(data, Not(:MedV))
-y = data.MedV
+y = data.MedV 
 
 linreg = LinearRegressor()
 
