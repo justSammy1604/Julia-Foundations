@@ -1,5 +1,5 @@
 using MLJ, MLJLinearModels, RDatasets, DataFrames, Plots, StatsBase, PrettyPrinting 
-import DataFrames:describe, select, Not, rename!
+import DataFrames:describe, select, Not, rename! 
 import RDatasets: dataset
 
 LinearRegressor = @load LinearRegressor pkg=MLJLinearModels
