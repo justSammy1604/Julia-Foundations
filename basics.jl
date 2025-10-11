@@ -30,3 +30,5 @@ mod(77,12)
 "A dog is mans bets friend"[start:2:end] #[start:step:end] -> Start and end are keywords
 lowercase("A MAN HAS MANY GAMES")
 uppercase("who are you")
+replace("CCTAGGAGGAT", 'C' => 'A')
+strip(" ")
