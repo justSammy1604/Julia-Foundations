@@ -17,8 +17,8 @@ train, test = partition(eachindex(iris_y), 0.7, shuffle=true, rng=rng)
 MLJ.fit!(tree, rows=train)
 
 y_pred = MLJ.predict(tree, rows=test)
-y_pred_mode = MLJ.predict_mode(tree, rows=test)
+y_pred_mode = MLJ.predict_mode(tree, rows=test) 
 
 confusion_matrix(y_pred_mode, iris_y[test])
 
-mce = MLJ.cross_entropy(y_pred, iris_y[test]) 
+mce = MLJ.cross_entropy(y_pred, iris_y[test])  
