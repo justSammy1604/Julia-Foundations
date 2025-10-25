@@ -16,7 +16,7 @@ y = data.MedV
 linreg = LinearRegressor()
 
 X_uni = select(X, :LStat)
-mach_uni = MLJ.machine(linreg, X_uni, y)
+mach_uni = MLJ.machine(linreg, X_uni, y) 
 MLJ.fit!(mach_uni)
 
 fp = fitted_params(mach_uni)
