@@ -5,7 +5,7 @@ using Decimals
 println(typeof(5.6)) 
 # 0x123
 println(0x47a)
-bitstring(0x45a)
+bitstring(0x45a) 
 
 typeof(pi)
 x = 1//4 + 3//5
