@@ -8,7 +8,7 @@ elseif height < 190
 "Average"
 else
 "Tall"
-end
+end 
 
 #While Loop
 i=10
