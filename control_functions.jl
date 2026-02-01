@@ -23,7 +23,7 @@ println("Integer division: ", div(i, 3))
 println(i / 3.5)
 end
 
-for word in "θΣ"
+for word in "θΣ" 
 println(word)
 end
 
