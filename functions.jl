@@ -14,7 +14,7 @@ function hamm_dist(s, t)
 Base.@assert length(s) == length(t)
 num_errors=0
 for (aa, bb) in zip(s,t)
-num_errors += aa != bb ? 1 : 0
+num_errors += aa != bb ? 1 : 0 
 end
 num_errors
 end
