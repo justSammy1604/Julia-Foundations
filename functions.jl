@@ -16,7 +16,7 @@ num_errors=0
 for (aa, bb) in zip(s,t)
 num_errors += aa != bb ? 1 : 0 
 end
-num_errors
+num_errors 
 end
 
 hamm_dist(a, b)
