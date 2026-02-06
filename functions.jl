@@ -7,7 +7,7 @@ area_circle(r) = 2 * pi * r^2
 #Anonymous Functions
 map(x->2x+3, 3:9)
 
-a="aabb"
+a="aabb" 
 b="acbc"
 
 function hamm_dist(s, t)
