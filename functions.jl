@@ -31,7 +31,7 @@ complement = Dict("A"=>"T", "C"=>"G", "T"=>"A", "G"=>"C")
 
 rev_complement(s) = [complement[string(dch)] for dch in reverse(s)] |> join
 #Pipe operator |>, similar to that of R
-rev_complement("ATGCTAG")
+rev_complement("ATGCTAG") 
 
 cgcontent(dna::String) = count(i -> i in "CG", dna) / length(dna)
 cgcontent("ATGACCTAGATCG")
