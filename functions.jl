@@ -2,7 +2,7 @@
 f(x) = 2x + 1
 f(4.3)
 
-area_circle(r) = 2 * pi * r^2
+area_circle(r) = 2 * pi * r^2 
 
 #Anonymous Functions
 map(x->2x+3, 3:9)
