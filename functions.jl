@@ -19,7 +19,7 @@ end
 num_errors 
 end
 
-hamm_dist(a, b)
+hamm_dist(a, b) 
 
 
 s = "GTCA"
