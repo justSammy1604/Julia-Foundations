@@ -11,5 +11,5 @@ values(array_dict)
 keys(tuplist)
 
 for (a,b) in array_dict
-println("The key is $a and the key is $b")
+println("The key is $a and the key is $b") 
 end
