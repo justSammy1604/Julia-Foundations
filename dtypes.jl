@@ -5,7 +5,7 @@ tuplist = Dict([("four",4), ("five",5), ("six",6)])
 println(new_dict)
 println(array_dict)
 println(tuplist)
-haskey(new_dict, "two")
+haskey(new_dict, "two") 
 
 values(array_dict)
 keys(tuplist)
