@@ -22,7 +22,7 @@ end
 hamm_dist(a, b) 
 
 
-s = "GTCA"
+s = "GTCA" 
 t = "TGAC"
 
 complement = Dict("A"=>"T", "C"=>"G", "T"=>"A", "G"=>"C")
