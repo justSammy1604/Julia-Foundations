@@ -1,7 +1,7 @@
 x = 5
 # If Statements / Elseif
 if x > 3 "yes" else "no" end
-height = 180
+height = 180 
 if height < 160
 "Short"
 elseif height < 190 
