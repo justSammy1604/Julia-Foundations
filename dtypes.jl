@@ -3,7 +3,7 @@ new_dict = Dict("one"=>1, "two"=> 2, "three"=>3)
 array_dict = Dict(["nine"=>9, "ten"=>10])
 tuplist = Dict([("four",4), ("five",5), ("six",6)])
 println(new_dict)
-println(array_dict)
+println(array_dict) 
 println(tuplist)
 haskey(new_dict, "two") 
 
